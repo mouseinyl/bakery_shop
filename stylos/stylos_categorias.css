@@ -15,12 +15,15 @@
     position: relative;
     z-index: 3;
     border: 0px;
-    width: 2px;
-    border-bottom: 1px solid black !important;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid transparent !important;
+    cursor: pointer;
 }
 
 .tap:focus {
-    border-bottom: 1px solid rgb(248, 20, 20) !important;
+    border-bottom: 1px solid transparent !important;
 }
 
 .icon_tab {
