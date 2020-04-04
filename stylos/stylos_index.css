@@ -1,0 +1,78 @@
+    .oferta h2 {
+        font-size: xx-large;
+    }
+    
+    .oferta h1 {
+        font-size: 60px;
+    }
+    
+    .text_span_1 {
+        position: relative;
+        z-index: 20;
+        font-size: 30px;
+    }
+    
+    .categoria {
+        box-sizing: border-box;
+    }
+    
+    .icon_spam {
+        transition: 1s;
+        background: #E69F53;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    
+    .icon_spam:hover {
+        transition: 1s;
+        background: #34040C;
+    }
+    
+    .text_icon {
+        padding: 5px;
+    }
+    /* meduin */
+    
+    @media only screen and (min-width: 601px) and (max-width: 961px) {
+        .m_item div:nth-child(1) {
+            order: 1;
+        }
+        .m_item div:nth-child(2) {
+            order: 4;
+        }
+        .m_item div:nth-child(3) {
+            order: 3;
+        }
+        .m_item div:nth-child(4) {
+            order: 2;
+        }
+        .m_item div:nth-child(5) {
+            order: 5;
+        }
+        .m_item div:nth-child(6) {
+            order: 6;
+        }
+    }
+    
+    @media only screen and (min-width: 101px) and (max-width: 600px) {
+        .oferta h2 {
+            font-size: x-large
+        }
+        .oferta h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+        .text_icon h3 {
+            font-size: small;
+        }
+        .text_icon h5 {
+            font-size: 10px;
+        }
+        .s_float_left ul li {
+            float: left;
+        }
+        .empuje_img {
+            position: relative;
+            top: 20px;
+        }
+    }

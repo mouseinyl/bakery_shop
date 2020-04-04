@@ -1,0 +1,66 @@
+.product {
+    padding: 2px;
+    margin: 10px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+/* activiry */
+
+.tap {
+    -webkit-appearance: none;
+    position: relative;
+    z-index: 3;
+    border: 0px;
+    width: 2px;
+    border-bottom: 1px solid black !important;
+}
+
+.tap:focus {
+    border-bottom: 1px solid rgb(248, 20, 20) !important;
+}
+
+.icon_tab {
+    position: absolute;
+    z-index: 2;
+}
+
+
+/* activiry */
+
+
+/* animation */
+
+.kokoro .tap:checked+i {
+    color: rgb(248, 20, 20);
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+
+.kokoro i {
+    border-radius: 50%;
+    padding: 1px;
+    text-align: center;
+    transform: rotate(-360deg);
+    transition: 1.5s;
+}
+
+.cart .tap:checked+i {
+    color: rgb(251, 183, 56);
+    transform: rotate(-385deg);
+    transition: 1.5s;
+}
+
+.cart i {
+    border-radius: 50%;
+    padding: 1px;
+    text-align: center;
+    transform: rotate(0deg);
+    transition: 1.5s;
+}
+
+
+/* animation */

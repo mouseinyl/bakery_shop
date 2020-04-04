@@ -1,0 +1,22 @@
+.info input {
+    margin: 20px;
+}
+
+.info input::placeholder {
+    color: #34040C;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+h3 {
+    margin: 30px;
+}
+
+.info button {
+    margin: 20px;
+}
+
+.carta {
+    box-sizing: border-box;
+    padding: 5px;
+}
